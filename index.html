@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maricela's Graduation</title>
     <!-- Custom CSS -->
-    <link href="bigday/static/bigday/css/creative.css" rel="stylesheet">
+    <link href="static/bigday/css/creative.css" rel="stylesheet">
 </head>
 <body>
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
@@ -73,12 +73,86 @@
         </div>
     </section>
     
-    <!-- Optional: Include the other sections as needed, following the same structure -->
+    <section id="rsvp" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <h2 class="section-heading text-center">RSVP</h2>
+                    <hr class="primary">
+                    <dl class="dl-horizontal lead">
+                        <section class="no-padding" id="navigation">
+                            <div class="container-fluid">
+                                <div class="row no-gutter justify-content-center">
+                                    <div class="col-lg-6 d-flex justify-content-center">
+                                        <a href="#rsvp" class="portfolio-box page-scroll">
+                                            <img src="{% static 'bigday/images/1.png' %}" class="img-responsive" alt="">
+                                            <div class="portfolio-box-caption">
+                                                <div class="portfolio-box-caption-content">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6 d-flex justify-content-center">
+                                        <a href="#park" class="portfolio-box page-scroll">
+                                            <img src="{% static 'bigday/images/2.png' %}" class="img-responsive" alt="">
+                                            <div class="portfolio-box-caption">
+                                                <div class="portfolio-box-caption-content">
+                                                    <!-- <div class="project-name">
+                                                        Joinville Park
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <!-- Joinville Park Section -->
+            <div class="col-lg-6 d-flex justify-content-center">
+                <div class="text-center">
+                    <h3 class="section-heading text-center">Joinville Park</h3>
+                    <hr class="light">
+                    <p>
+                        Joinville Park is in San Mateo off of Kehoe Ave.
+                        There is a parking lot at the end of this <a href="https://maps.app.goo.gl/8Sn986wVD48vWXqp6">little street off of Kehoe.</a>
+                        There is a swimming pool in the park if you feel like taking a dip!
+                    </p>
+                </div>
+            </div>
+            <!-- Weather Section -->
+            <!-- <div class="col-lg-6 d-flex justify-content-center">
+                <div class="text-center">
+                    <h3 class="section-heading text-center">Weather</h3>
+                    <hr class="light">
+                    <a class="weatherwidget-io" href="https://forecast7.com/en/37d78n122d42/san-mateo/" data-label_1="SAN MATEO" data-label_2="WEATHER" data-theme="original">SAN MATEO WEATHER</a>
+                    <script>
+                        !function(d,s,id){
+                            var js,fjs=d.getElementsByTagName(s)[0];
+                            if(!d.getElementById(id)){
+                                js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';
+                                fjs.parentNode.insertBefore(js,fjs);
+                            }
+                        }(document,'script','weatherwidget-io-js');
+                    </script>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    
+    
 
     <!-- Plugin JavaScript -->
     <!-- Easing is for the vertical scroll animations -->
-    <script src="bigday/static/creative/js/jquery.easing.min.js"></script>
+    <script src="static/creative/js/jquery.easing.min.js"></script>
     <!-- Automatically fit text based on screen size. -->
-    <script src="bigday/static/creative/js/jquery.fittext.js"></script>
+    <script src="static/creative/js/jquery.fittext.js"></script>
     <!-- Custom Theme  -->
-    <script src="bigday/static/creative/js/creative.js"></script>
+    <script src="static/creative/js/creative.js"></script>
