@@ -193,7 +193,7 @@ header {
 }
 
 #main-header {
-    background-image: url('images/banner.jpg');
+    background-image: url('../images/banner.jpg');
 }
 
 header .header-content {
